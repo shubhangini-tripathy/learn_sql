@@ -36,4 +36,10 @@ select * from student order by name;
 3|ahu|GKP
 2|ashu|GKP
 4|babu|gkp
-sqlite> 
+
+DELETE FROM STUDENT
+WHERE NAME = "SHUBHI"
+;
+ select * from student order by name;
+
+
